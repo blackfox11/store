@@ -5,13 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Views\Book\**" />
-    <Content Remove="Views\Book\**" />
-    <EmbeddedResource Remove="Views\Book\**" />
-    <None Remove="Views\Book\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
