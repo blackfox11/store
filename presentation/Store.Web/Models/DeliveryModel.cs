@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Store.Web.Models
 {
-    public class Confirmation
+    public class DeliveryModel
     {
-        public string CellPhone { get; set; }
+        public int OrderId { get; set; }
+        public Dictionary<string, string> Methods { get; set; }
     }
 }
