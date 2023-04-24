@@ -20,7 +20,7 @@ namespace Store
         public decimal Price { get; }
         public OrderItem(int bookId, int count, decimal price)
         {
-            //ThrowIfInvalidCount(count);
+            ThrowIfInvalidCount(count);
             BookId = bookId;
             Count = count;
             Price = price;
